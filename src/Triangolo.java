@@ -3,9 +3,11 @@ public class Triangolo {
 	
 	private float base, altezza;
 
-	public Triangolo(float base, float altezza) {
-		this.base = base;
-		this.altezza = altezza;
+	public Triangolo(){
+	}
+	
+	public float areaTriangolo() {
+		return base*altezza;
 	}
 
 	public float getBase() {
